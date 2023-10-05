@@ -11,8 +11,8 @@ st.write("Upload an image or use the default image to generate image captions.")
 
 # Load pre-trained models
 st.write("Loading pre-trained models...")
-processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-large")
-model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-large")
+processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
+model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
 st.write("Models loaded successfully.")
 
 # Add a file uploader widget for image input
