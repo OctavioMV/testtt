@@ -8,9 +8,9 @@ Original file is located at
 """
 
 # Install required libraries
-!pip install transformers
-!pip install Pillow
-!pip install flask
+#!pip install transformers
+#!pip install Pillow
+#!pip install flask
 
 # Import necessary libraries
 import os
