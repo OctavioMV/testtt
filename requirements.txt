@@ -1,3 +1,4 @@
+pip==23.2.1
 Pillow==9.4.0
 streamlit==1.27.0
 transformers[torch]==4.33.2
